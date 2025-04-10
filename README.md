@@ -1,6 +1,6 @@
 # 🎧 Mood-Based Music Recommender: Discover Your Vibe!
 
-This project is a Python-based music recommendation system designed to suggest songs based on your current **mood** and preferences. By leveraging data analysis, machine learning techniques, and (potentially) the **Spotify Web API**, this recommender aims to provide personalized and enjoyable listening experiences.
+This project is a Python-based music recommendation system designed to suggest songs based on your current **mood** and preferences. By leveraging data analysis, machine learning techniques, and the **Spotify Web API**, this recommender aims to provide personalized and enjoyable listening experiences.
 
 ---
 
@@ -10,18 +10,9 @@ This project is a Python-based music recommendation system designed to suggest s
 - **Trending Music Integration:** Explore the latest hits from the Billboard Hot 100.
 - **Clustering for Personalization:** Utilizes unsupervised learning (e.g., K-Means) to group songs with similar audio characteristics.
 - **Genre & Mood Mapping:** Clusters are labeled with mood types like *High Energy*, *Chill Vibes*, *Rock*, etc.
-- **(Optional) Spotify API Integration:** Fetch real-time song data and audio features using the Spotify API.
+- **Spotify API Integration:** Fetch real-time song data and audio features using the Spotify API.
 - **Interactive User Experience:** Easy-to-use interface (initially via Jupyter Notebook) for selecting moods and receiving recommendations.
-- **(Optional) Web Deployment:** Deployed as a web application using **Streamlit** (if implemented).
-
----
-
-## 📂 Project Structure
-
-├── Gnod-Project.ipynb        # Jupyter Notebook containing main logic
-├── config.py                 # Stores Spotify API credentials
-├── spotify_app.py            # Streamlit web app
-└── README.md                 # This file
+- **Web Deployment:** Deployed as a web application using **Streamlit**.
 
 ---
 
